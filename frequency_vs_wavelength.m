@@ -17,7 +17,7 @@ lambda_freq     = c ./ by_frequency
 
 hold on 
 scatter( by_frequency , lambda_freq , '.r' )
-
+text( by_frequency , lambda_freq , 
 % text( 
 % 
 grid on , 
